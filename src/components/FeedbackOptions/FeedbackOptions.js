@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function FeedbackOptions({
   options,
-  leaveFeedback: onleaveFeedback,
+  leaveFeedback
 }) {
   return (
     <section>
@@ -12,7 +12,7 @@ export default function FeedbackOptions({
           key={option}
           type="button"
           name={option}
-          onClick={onleaveFeedback}
+          onClick={leaveFeedback}
         >
           {option}
         </button>

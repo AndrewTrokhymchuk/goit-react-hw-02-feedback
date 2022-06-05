@@ -8,13 +8,13 @@ class App extends Component {
   state = {
     good: 0,
     neutral: 0,
-    bad: 0,
+    bad: 0
   };
 
   leaveFeedback = option => {
     const name = option.target.name;
     this.setState(prevState => ({
-      [name]: prevState[name] + 1,
+      [name]: prevState[name] + 1
     }));
     // console.log(this.state);
   };

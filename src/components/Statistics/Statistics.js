@@ -6,7 +6,7 @@ export default function Statistics({
   neutral,
   bad,
   total,
-  positivePercentage,
+  positivePercentage
 }) {
   return (
     <section>
